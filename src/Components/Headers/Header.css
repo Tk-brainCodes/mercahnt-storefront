@@ -1,0 +1,106 @@
+.header__container {
+    width: 90vw;
+    height: 54.2px;
+    background: #2766CC;
+    color: white;
+    font-style: normal;
+    font-family: sans-serif;
+    display: grid;
+    align-items: center;
+}
+
+.tag__ {
+    margin-left: 180px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .header__container {
+        width: 100vw;
+        height: 54.2px;
+        background: #2766CC;
+        color: white;
+        font-style: normal;
+        font-family: sans-serif;
+        display: grid;
+        align-items: center;
+    }
+
+    .navigation__space {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: auto !important;
+        background: white;
+        padding: 0px;
+    }
+
+    .logo__ {
+        display: inline-flex;
+        background: rgb(230, 225, 225);
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin-left: 0px;
+    }
+    
+    
+}
+
+.navigation__space {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 88.9vw;
+    height: auto !important;
+    background: white;
+    padding: 10px;
+}
+
+.logo__ {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #F2F2F2;
+    color: #A8A8A8;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.text__ {
+    margin-left: 25px;
+    width: auto !important;
+}
+
+.container__ {
+    display: flex;
+    width: auto !important;
+    background: white;
+    height: auto !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__items {
+    display: flex;  
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 500px;
+    height: auto !important;
+    background: white;
+    font-size: 20px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.empty__ {
+    width: 200px;
+}

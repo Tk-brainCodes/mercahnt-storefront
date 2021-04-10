@@ -1,0 +1,282 @@
+.body__ {
+    display: inline-flex;
+    width:  90vw;
+    border-top: 1px solid #b9b6b6;
+}
+
+.search__bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+    bottom: 0;
+    background:none ;
+    width: auto !important;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    /* position: absolute;
+    top: 20;
+    z-index: 10; */
+}
+
+#search {
+    padding: 14px;
+    width: 570px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: grey;
+    background: #e2e1e1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px ;
+}
+
+#Btn__ {
+    padding: 18px;
+    height: 46px;
+    outline: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    background-color: #F8DE4B;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.column {
+    display: block;
+    float: left;
+    height: 80vh;
+    background:white;
+  }
+
+.column1 {
+
+    display: block;
+    width: 33.33vw;
+    height: auto !important;
+}  
+
+.column2 {
+    display: block;
+    border-right: 1px solid  #b9b6b6;
+    border-left: 1px solid  #b9b6b6;
+    width: 50.5vw;
+    height: auto !important;
+    padding: 25px;
+}
+
+.column3 {
+    display: block;
+    padding: 25px;;
+    width: 33.33vw;
+}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .items__lists {
+  }
+
+  ul{
+     display: block;
+     float: right;
+     padding: 10px;
+     height: auto !important;
+     width: 300px;
+  }
+
+  li {
+      list-style-type: none;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: sans-serif;
+      padding: 5px;
+      margin: 15px;
+      color: #848484;
+      width: 275px;
+      height: 40px;
+  }
+
+  #link__ {
+      color: #2766CC;
+      font-weight: bold;
+  }
+
+/* .items__categories {
+    display: flex;
+    width: 34vw;
+    padding: 10px;
+    height: auto !important;
+    margin-left: 41.5px;
+    margin-top: 30px;
+    background-color: white;
+} */
+
+.cards__ {
+    display: flex;
+    flex-wrap: wrap;
+    width: 35vw;
+    height: auto !important;
+    background:white ;
+    border-radius: 4px;
+    background:white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+h3 {
+    width: auto !important;
+}
+
+#category__one {
+    width: 34vw;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    font-weight: bold;
+    color: #676767;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.bag__bar {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+#badge__ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33px;
+    height: 29px;
+    margin-left: 10px;
+    color: white;
+    padding: 4px;
+    background-color: #2766CC;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.active__ {
+    border-right: 5px solid #2766CC;
+    color: #2766CC;
+}
+
+.image__ {
+    width: 100px;
+    height: 105px;
+    background-color: gray;
+    border-radius: 4px;
+}
+
+.text__details {
+    width: 500px;
+    height: 110;
+    background: white;
+    margin-left: 20px;
+}
+
+.add__Btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    padding: 2px;
+    height: 30px;
+    border: 3px solid #B5C5DF;
+    color: #2766CC;
+    font-weight: 600;
+    border-radius: 4px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.heading__ {
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 15.5px;
+    font-weight: 300;
+    color: #333131;
+}
+
+.price__ {
+    display: flex;
+    justify-content: space-between;
+    color:#717171;
+    font-weight: 300;
+}
+
+.image1 {
+    background-image: url('./images/babyfacemask.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image3 {
+    background-image: url('./images/baby-carrot.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image2 {
+    background-image: url('./images/norbury.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image4 {
+    background-image: url('./images/wood.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image5 {
+    background-image: url('./images/protein.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.emoji__image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    width: 120px;
+    height: 120px;
+    background-image: url('./images//emoji-face.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.state__ {
+    display: block;
+    text-align: center;
+    width: 15vw;
+    height: auto !important;
+    padding: 20px;
+    background: white;
+}
+
+.current__state {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.p__text {
+    font-size: 17px;
+    color: rgb(126, 125, 125);
+}

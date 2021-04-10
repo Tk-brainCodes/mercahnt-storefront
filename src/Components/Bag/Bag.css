@@ -1,0 +1,113 @@
+
+.navigation__space {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 88.9vw;
+    height: auto !important;
+    background: white;
+    padding: 10px;
+}
+
+.logo__ {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #F2F2F2;
+    color: #A8A8A8;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.text__ {
+    margin-left: 25px;
+    width: auto !important;
+}
+
+.container__ {
+    display: flex;
+    width: auto !important;
+    background: white;
+    height: auto !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__items {
+    display: flex;  
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 500px;
+    height: auto !important;
+    background: white;
+    font-size: 20px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.bag__content {
+    border-top: 1px solid #D4D4D4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 100vh;
+}
+
+.bag__container {
+    display: block;
+    text-align: center;
+    width: auto !important;
+    height: 600px;
+    padding: 40px 50px;
+    background: white;
+}
+
+.main__ {
+    font-size: 18px;
+    color: rgb(56, 52, 52);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.main__p {
+    font-size: 16px;
+    color: gray;
+    font-family: sans-serif;
+}
+
+#Back_home__button {
+    padding: 0.85em 3em;
+    margin-top: 35px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    background:  #EDF431;
+    color: #520FD0;
+   
+}
+
+
+.bag__state {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #D2D8E2;
+    color:  #2766CC;
+    padding: 0.59em 1em;
+    border-radius: 2em;
+    font-size: 18.5px;
+}
+
+#BagIcon__ {
+    margin-right: 30px;
+}

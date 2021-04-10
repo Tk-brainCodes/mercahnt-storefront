@@ -1,0 +1,75 @@
+.services__ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: auto !important;
+    background: #2766CC;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.service__ {
+    width: 50vw;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: auto !important;
+}
+
+.fast__delivery, .customer__support, .buyer__protection {
+    display: block;
+    text-align: center;
+    width: auto !important;
+    height: 120px;
+    padding: 5px;
+    background-color: none;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer__ {
+    display: block;
+    text-align: center;
+    width: 90vw;
+    height: auto !important;
+    background-color: white;
+}
+
+.store__details {
+    margin-top: 50px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.footer__header {
+    margin-bottom: 20px;
+}
+
+.whatsapp__Btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: #01c041;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.fa-whatsapp{
+    font-size: 25px;
+    margin-right: 10px;
+    color: white;
+    
+}
