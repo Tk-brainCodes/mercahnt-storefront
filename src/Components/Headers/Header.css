@@ -9,6 +9,26 @@
     align-items: center;
 }
 
+#shoppingBag {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#shop-store {
+    font-size: 20px;
+}
+
+.account__ {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fa-user {
+    margin-right: 20px;
+    font-size:25px;
+}
+
 .tag__ {
     margin-left: 180px;
 }
@@ -53,7 +73,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 88.9vw;
+    width: 100vw;
     height: auto !important;
     background: white;
     padding: 10px;
@@ -73,14 +93,14 @@
 }
 
 .text__ {
-    margin-left: 25px;
+    
     width: auto !important;
 }
 
 .container__ {
     display: flex;
     width: auto !important;
-    background: white;
+    background-color:white;
     height: auto !important;
     align-items: center;
     justify-content: center;

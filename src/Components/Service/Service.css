@@ -10,6 +10,29 @@
     font-family: sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+    .services__ {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: auto !important;
+        background: #2766CC;
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    .service__ {
+        width: 100vw;
+        background: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 20px;
+        height: auto !important;
+    }
+}
+
 .service__ {
     width: 50vw;
     background: none;
@@ -35,7 +58,7 @@
 .footer__ {
     display: block;
     text-align: center;
-    width: 90vw;
+    width: 100vw;
     height: auto !important;
     background-color: white;
 }
@@ -44,6 +67,7 @@
     margin-top: 50px;
     font-size: 13px;
     font-weight: 300;
+    color: gray;
 }
 
 .footer__header {

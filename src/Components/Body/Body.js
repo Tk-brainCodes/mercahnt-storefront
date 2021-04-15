@@ -16,7 +16,7 @@ const Body = () => {
             <Header2 />
             <form className="search__bar">
                 <input id="search" type="text" placeholder="Search for products..." />
-                <button type="submit" id="Btn__"></button>
+                <button type="submit" id="Btn__"><i id="fa-search" class="fas fa-search"></i></button>
             </form>
             <div className="body__">
                 <div className="column column1">
@@ -27,7 +27,7 @@ const Body = () => {
                             <li>Grocery(8)</li>
                             <li>Home(24)</li>
                             <li>Kids(9)</li>
-                            <li id="link__">View all categories</li>
+                            <li id="link__">View all categories <i style={{fontSize: "18px", marginLeft: '10px'}} class="fas fa-chevron-right"></i></li>
                         </ul>
                     </div>
                 </div>

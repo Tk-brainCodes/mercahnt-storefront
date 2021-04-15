@@ -18,7 +18,7 @@ const CartDetails = () => {
             <div className="navigation__space">
                 <div className="container__">
                     <div className="logo__">
-
+                    <i id="shop-store" class="fas fa-store-alt"></i>
                     </div>
                     <div className="text__">
                         <p className="target__font"><b style={{ fontWeight: 'bolder', fontSize: '20px', height: 'auto !important', marginBottom: '2px', color: '#2E2E2E' }}>Target</b>
@@ -28,9 +28,9 @@ const CartDetails = () => {
 
                 <div className="nav__items">
                     <Link to="/bag">
-                        <div className="bag__"> {/*<i className="items__number">2</i>*/} Bag</div>
+                        <div className="bag__"> <i id="shoppingBag" className="fas fa-shopping-bag"></i> Bag</div>
                     </Link>
-                    <div className="account__">Account</div>
+                    <div className="account__"><i className="far fa-user"></i> Account</div>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ const CartDetails = () => {
 
                     <div className="product__price">
                         <p><div className="current__price">UGX 118,400 <div className="discount__tag">-20%</div></div>
-                            <div className="slahed__price">UGX 148,000</div></p>
+                            <div className="slahed__price"><strike>UGX 148,000</strike></div></p>
                     </div>
 
                     <div className="conter__">
